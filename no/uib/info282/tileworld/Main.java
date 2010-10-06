@@ -3,7 +3,7 @@ package no.uib.info282.tileworld;
 import java.util.LinkedList;
 import java.util.List;
 
-import no.uib.info282.tileworld.solvers.RandomSolver;
+import no.uib.info282.tileworld.solvers.BfsSolver;
 import no.uib.info282.tileworld.solvers.Solver;
 
 /**
@@ -17,7 +17,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Change this function call to use your solver instead
-		init(new RandomSolver());
+		init(new BfsSolver());
 	}
 
 	private static void init(Solver... solvers) {

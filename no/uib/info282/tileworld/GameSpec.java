@@ -3,7 +3,7 @@ package no.uib.info282.tileworld;
 public class GameSpec {
 	// size of world
 	public final static int WIDTH = 100;
-	public final static int HEIGHT = 80;
+	public final static int HEIGHT = 70;
 	public final static int TILE_SIZE = 10;
 
 	// wall creation
@@ -12,7 +12,7 @@ public class GameSpec {
 	public final static double WALL_TURN = .05;
 
 	// sleeping
-	public final static long EXPANSION_MILLI_SLEEP = 100;
+	public final static long EXPANSION_MILLI_SLEEP = 50;
 	public final static long PATH_DRAW_MILLI_SLEEP = 50;
 
 	private final int width;
