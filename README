@@ -1,0 +1,9 @@
+This is a pedagogical framework written in Java for creating simple
+search algorithms, either uninformed (like BFS, DFS, IDDFS, etc.) or
+informed search (like A*, Greedy Best First, etc.).
+
+One can copy the BfsSolver in the Solver package to use as a template,
+and on that build other more advanced search algorithms.
+
+Settings are in GameSpec.java, and Main.java contains the class it
+will use to search.
